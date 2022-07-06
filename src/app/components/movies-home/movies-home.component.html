@@ -1,0 +1,30 @@
+<div *ngIf="movies && yetToWatchMovies && watchedMovies">
+    <div class="movie-search">
+        <input type="text" [(ngModel)]="movieSearch" name="movieSearch" placeholder="Search movie.."/>
+        <button class="btn search-button" (click)="searchMovie()">Search</button>
+    </div>
+    <div class="genres" *ngIf="genresList">
+        <span class="genre-heading">
+            Movie Genres:
+        </span>
+        <span class="genre-content" *ngFor="let genre of genresList" (click)="onFilter(genre?.genreName)">
+            <span style="opacity: 0.5;" *ngIf="genre?.active">{{genre?.genreName}}</span>
+            <span *ngIf="!genre?.active">{{genre?.genreName}}</span>
+        </span>
+    </div>
+    <div class="watch-wrapper">
+        <h3 *ngIf="movies.length < 1">Movie not found...</h3>
+        <h3 *ngIf="yetToWatchMovies.length">Movies To Watch</h3>
+        <div class="to-watch">
+            <app-movie-tile *ngFor="let movie of yetToWatchMovies" [imageUrl]="movie.image" [id]="movie.id"
+                [rating]="movie.rating" [isWatched]="movie.isWatched" [isFav]="movie.isFav" (favClick)="onFavClick(movie)"
+                (watchedClick)="onWatchedClick(movie)"></app-movie-tile>
+        </div>
+        <h3 *ngIf="watchedMovies.length">Watched Movies</h3>
+        <div class="to-watch">
+            <app-movie-tile *ngFor="let movie of watchedMovies" [imageUrl]="movie.image" [id]="movie.id"
+                [rating]="movie.rating" [isWatched]="movie.isWatched" [isFav]="movie.isFav" (favClick)="onFavClick(movie)"
+                (watchedClick)="onWatchedClick(movie)"></app-movie-tile>
+        </div>
+    </div>
+</div>

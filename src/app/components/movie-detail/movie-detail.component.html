@@ -1,0 +1,46 @@
+<div class="container" *ngIf="movie">
+    <h1 class="heading">{{ movie?.title }}</h1>
+    <p class="rate"><fa-icon class="star-icon" [icon]="faStar"></fa-icon><span>{{ movie?.rating }}</span>/10</p>
+    <h3 class="review-count">{{movie?.reviews.length}} reviews</h3>
+    <div class="movie-body">
+        <div class="movie-image">
+            <img [src]="movie.image" width="400px" height="500px"/>
+        </div>
+        <div class="movie-content">
+            <h1 class="movie-content-heading">Storyline</h1>
+            <p class="movie-content-description">{{movie.description}}</p>
+            <li><h4 class="movie-content-list">Genre</h4> - {{movie.genre}}</li>
+            <li><h4 class="movie-content-list">Language</h4> - {{movie.language}}</li>
+            <div class="movie-content-review-button">
+                <button class="movie-content-review" *ngIf="movie.isWatched" (click)="openModal()">Add Review</button>
+            </div>
+        </div>
+    </div>
+    <hr class="separator"/>
+    <div class="movie-footer" *ngIf="movie.reviews.length > 0">
+        <h3 class="movie-footer-heading">Reviews</h3>
+        <div class="movie-footer-content">
+            <li *ngFor="let review of movie?.reviews">
+                {{ review }}
+            </li>
+        </div>
+    </div>
+</div>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close" (click)="closeModal()">&times;</span>
+            <h2 class="modal-heading">Adding Review</h2>
+        </div>
+        <hr class="separator"/>
+        <div class="form-control review-input">
+            <label for="movieReview">Review</label>
+            <input type="text" name="movieReview" [(ngModel)]="movieReview" id="movieReview" placeholder="Add Movie Review" />
+            <div class="review-error-alert" *ngIf="movieReviewError">
+                {{ movieReviewError }}
+            </div>
+        </div>
+        <button class="modal-button" (click)="onSaveReview()">Save Review</button>
+    </div>
+</div>

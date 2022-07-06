@@ -1,0 +1,219 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Avengers Endgame",
+      "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store",
+      "rating": 8.3,
+      "language": "English",
+      "genre": "Action",
+      "image": "assets/AvengersEndGame.jpeg",
+      "isWatched": false,
+      "isFav": false,
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "title": "Avatar",
+      "description": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+      "rating": 7,
+      "language": "English",
+      "genre": "Action",
+      "image": "assets/avatar.jpeg",
+      "isWatched": true,
+      "isFav": true,
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "title": "Black Widow",
+      "description": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
+      "rating": 7.4,
+      "language": "English",
+      "genre": "Action",
+      "image": "assets/BlackWidow.jpeg",
+      "isWatched": false,
+      "isFav": false,
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "title": "Army of Thieves",
+      "description": "A mysterious woman recruits bank teller Ludwig Dieter to lead a group of aspiring thieves on a top-secret heist during the early stages of the zombie apocalypse.",
+      "rating": 6.9,
+      "language": "English",
+      "genre": "Comedy",
+      "image": "assets/ArmyOfThieves.jpeg",
+      "isWatched": true,
+      "isFav": false,
+      "reviews": [
+        "Wow great movie must watch"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Finch",
+      "description": "On a post-apocalyptic Earth, a robot, built to protect the life of his dying creator's beloved dog, learns about life, love, friendship, and what it means to be human.",
+      "rating": 8.1,
+      "language": "English",
+      "genre": "Drama",
+      "image": "assets/Finch.jpeg",
+      "isWatched": true,
+      "isFav": true,
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "title": "Light Years",
+      "description": "Astronomer David Summers (Christopher Knight) has just discovered the Dream Galaxy, and with it, Misty (Meadow Williams) -- the girl of his dreams. Also featuring Eric Roberts, Hal Linden, Adrianne Curry and Barry Van Dyke.",
+      "rating": 5,
+      "language": "English",
+      "genre": "Fantasy",
+      "image": "assets/LightYears.jpeg",
+      "isWatched": true,
+      "isFav": true,
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "title": "No Time To Die",
+      "description": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+      "rating": 7.5,
+      "language": "English",
+      "genre": "Thriller",
+      "image": "assets/NoTimeToDie.jpeg",
+      "isWatched": true,
+      "isFav": false,
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "title": "Super Mario",
+      "description": "Super Mario's take on three classic fairy tales - Momotaro from Japanese folklore with Super Mario as Momotaro, Issun-boshi, a tale similar to Tom Thumb, with Super Mario as Issun-boshi and Show White with Princess Peach as Snow.",
+      "rating": 4.9,
+      "language": "English",
+      "genre": "Fantasy",
+      "image": "assets/SuperMarios.jpeg",
+      "isWatched": false,
+      "isFav": false,
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "title": "The Batman",
+      "description": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+      "rating": 7.8,
+      "language": "English",
+      "genre": "Thriller",
+      "image": "assets/Batman.jpeg",
+      "isWatched": true,
+      "isFav": true,
+      "reviews": []
+    },
+    {
+      "id": 10,
+      "title": "Mission Impossible",
+      "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+      "rating": 6.9,
+      "language": "English",
+      "genre": "Thriller",
+      "image": "assets/MissionImpossible.jpeg",
+      "isWatched": true,
+      "isFav": true,
+      "reviews": [
+        "A great movie, must watch."
+      ]
+    },
+    {
+      "reviews": [],
+      "isFav": false,
+      "isWatched": false,
+      "image": "data:image/jpeg;base64,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",
+      "genre": "Action",
+      "language": "English",
+      "rating": 6.8,
+      "description": "Against his father Odin's will, The Mighty Thor - a powerful but arrogant warrior god - recklessly reignites an ancient war. Thor is cast down to Earth and forced to live among humans as punishment. Once here, Thor learns what it takes to be a true hero when the most dangerous villain of his world sends the darkest forces of Asgard to invade Earth.",
+      "title": "Thor",
+      "id": 6364
+    },
+    {
+      "reviews": [],
+      "isFav": false,
+      "isWatched": false,
+      "image": "https://m.media-amazon.com/images/M/MV5BZWQ0NDc3NDQtNjg4NS00NTFhLTlmOGEtZTc4Nzg0ZTBmZWNlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "genre": "Horror",
+      "language": "English",
+      "rating": 7,
+      "description": "A group of friends enjoying a weekend steal a couple of jetskis racing them out to sea, ending up in a horrific head-on collision. They struggle to find a way home with a badly injured friend while from the waters below predators lurk.",
+      "title": "Shark Bait",
+      "id": 52195
+    },
+    {
+      "reviews": [],
+      "isFav": false,
+      "isWatched": false,
+      "image": "https://image.tmdb.org/t/p/w370_and_h556_bestv2//q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "genre": "Drama",
+      "language": "English",
+      "rating": 8.7,
+      "description": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+      "title": "The Shawshank Redemption",
+      "id": 9750
+    },
+    {
+      "reviews": [
+        "Great movie!.",
+        "The sequel we deserved to the Batman we wanted...",
+        "The film does suffer from being a little too talky, and the plot on occasions can be hard to follow due to a lot going on. ",
+        "The dark knight is by far the best batman movie without a doubt. "
+      ],
+      "isFav": false,
+      "isWatched": true,
+      "image": "https://image.tmdb.org/t/p/w370_and_h556_bestv2//qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "genre": "Drama",
+      "language": "English",
+      "rating": 8.5,
+      "description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+      "title": "The Dark Knight",
+      "id": 92578
+    },
+    {
+      "reviews": [],
+      "isFav": false,
+      "isWatched": false,
+      "image": "https://image.tmdb.org/t/p/w370_and_h556_bestv2//jrgifaYeUtTnaH7NF5Drkgjg2MB.jpg",
+      "genre": "Fantasy",
+      "language": "English",
+      "rating": 6.8,
+      "description": "Professor Albus Dumbledore knows the powerful, dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts magizoologist Newt Scamander to lead an intrepid team of wizards and witches. They soon encounter an array of old and new beasts as they clash with Grindelwald's growing legion of followers.",
+      "title": "Fantastic Beasts: The Secrets of Dumbledore",
+      "id": 18125
+    },
+    {
+      "reviews": [
+        "Very interesting and suspenseful movie"
+      ],
+      "isFav": true,
+      "isWatched": true,
+      "image": "https://image.tmdb.org/t/p/w370_and_h556_bestv2//bxHZpV02OOu9vq3sb3MsOudEnYc.jpg",
+      "genre": "Horror",
+      "language": "English",
+      "rating": 8,
+      "description": "Finney Shaw, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
+      "title": "The Black Phone",
+      "id": 28296
+    },
+    {
+      "reviews": [],
+      "isFav": false,
+      "isWatched": false,
+      "image": "https://image.tmdb.org/t/p/w370_and_h556_bestv2//5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+      "genre": "Fantasy",
+      "language": "English",
+      "rating": 8.4,
+      "description": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+      "title": "The Lord of the Rings: The Two Towers",
+      "id": 66417
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<div class="movie-tile-wrapper">
+    <div>
+        <div class="poster-wrapper">
+            <p class="rate"><fa-icon class="star-icon" [icon]="faStar"></fa-icon><span>{{ rating }}</span>/10</p>
+            <a [routerLink]="['movies/', id]">
+                <img [src]="imageUrl" width="200px" height="300px" />
+            </a>
+        </div>
+        <div class="icon-bar">
+            <fa-icon [icon]="faFav" (click)="onFavClick()"></fa-icon>
+            <fa-icon [icon]="faWatched" (click)="onWatchedClick()"></fa-icon>
+        </div>
+    </div>
+</div>

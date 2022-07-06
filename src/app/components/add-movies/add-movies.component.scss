@@ -1,0 +1,27 @@
+.add-movie {
+    width: 70rem;
+    position: absolute;
+    top: 10rem;
+    left: 12rem;
+
+    h3 {
+        font-size: x-large;
+        text-align: center;
+        text-decoration: solid;
+    }
+
+    .review-error-alert {
+        background-color: #ffbebd;
+        color: #e50914;
+        width: 71rem;
+        height: 3rem;
+        text-align: center;
+        padding-top: 0.8rem;
+    }
+
+    .form-control{
+        color: #fff !important;
+        background-color: transparent;
+        border: none;
+    }
+}

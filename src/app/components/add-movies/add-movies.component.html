@@ -1,0 +1,45 @@
+<div class="add-movie">
+    <form class="add-movie-form" (ngSubmit)="onSubmit()">
+        <h3>Add Movie</h3>
+        <div class="form-control">
+            <label for="movieTitle">Movie Name</label>
+            <input type="text" name="movieTitle" [(ngModel)]="movieTitle" id="movieTitle" placeholder="Add Movie Name" />
+        </div>
+        <div class="review-error-alert" *ngIf="movieTitleErrorMessage">
+            {{ movieTitleErrorMessage }}
+        </div>
+        <div class="form-control">
+            <label for="movieDescription">Description</label>
+            <input type="text" name="movieDescription" [(ngModel)]="movieDescription" id="movieDescription" placeholder="Add Movie Description" />
+        </div>
+        <div class="review-error-alert" *ngIf="movieDescriptionErrorMessage">
+            {{ movieDescriptionErrorMessage }}
+        </div>
+        <div class="form-control">
+            <label for="movieRating">IMDB Rating</label>
+            <input type="number" name="movieRating" [(ngModel)]="movieRating" id="movieRating" placeholder="Add Movie Rating" />
+        </div>
+        <div class="form-control">
+            <label for="movieLanguage">Language</label>
+            <input type="text" name="movieLanguage" [(ngModel)]="movieLanguage" id="movieLanguage" placeholder="Add Movie Language" />
+        </div>
+        <div class="review-error-alert" *ngIf="movieLanguageErrorMessage">
+            {{ movieLanguageErrorMessage }}
+        </div>
+        <div class="form-control">
+            <label for="movieGenre">Genre</label>
+            <input type="text" name="movieGenre" [(ngModel)]="movieGenre" id="movieGenre" placeholder="Add Movie Genre" />
+        </div>
+        <div class="review-error-alert" *ngIf="movieGenreErrorMessage">
+            {{ movieGenreErrorMessage }}
+        </div>
+        <div class="form-control">
+            <label for="image">Image Url</label>
+            <input type="text" name="image" [(ngModel)]="image" id="image" placeholder="Add Image url" />
+        </div>
+        <div class="review-error-alert" *ngIf="movieImageUrlErrorMessage">
+            {{ movieImageUrlErrorMessage }}
+        </div>
+        <input type="submit" value="Add Movie" class="btn btn-block">
+    </form>
+</div>

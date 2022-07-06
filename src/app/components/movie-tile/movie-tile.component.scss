@@ -1,0 +1,39 @@
+.movie-tile-wrapper {
+    max-width: 250px;
+    max-height: 350px;
+    
+    .poster-wrapper {
+        img {
+            transition: all 0.5s ease;
+        }
+        // :hover {
+        //     transform: scale(1.1);
+        // }
+
+        .rate {
+            font-size: large;
+            background: rgba(11,26,42,.95);
+            border-radius: 5px;
+            position: absolute;
+
+            .star-icon{
+                color: #dc4666;
+            }
+        }
+    }
+
+    .icon-bar {
+        background-color: rgba(0, 0, 0, 0.4);
+        position: relative;
+        bottom: 29px;
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        overflow: hidden;
+    }
+
+    .icon-bar:hover {
+        bottom: 29px;
+        transform: scale(1);
+    }
+}

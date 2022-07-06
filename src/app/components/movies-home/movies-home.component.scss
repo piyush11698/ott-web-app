@@ -1,0 +1,52 @@
+.watch-wrapper {
+    text-align: center;
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+
+    .to-watch {
+        display: grid;
+        grid-template-columns: repeat(7, 12rem);
+        gap: 20px;
+        align-self: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.genres {
+    margin-top: 3rem;
+    text-align: center;
+
+    .genre-heading {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    .genre-content {
+        font-size: 1.8rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+    .genre-content:hover {
+        opacity: 0.5;
+    }
+}
+
+.movie-search {
+    margin-top: 8rem;
+    text-align: center;
+
+    input {
+        width: 60rem;
+        height: 3rem;
+        font-size: 1.4rem;
+        padding-left: 0.5rem;
+    }
+
+    .search-button {
+        margin-left: 1rem;
+    }
+}
