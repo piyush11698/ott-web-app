@@ -13,7 +13,8 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class MoviesService {
-  private baseApiUrl = 'http://localhost:3000/movies';
+  //private baseApiUrl = 'http://localhost:3000/movies';
+  private baseApiUrl = 'https://ott-app-json-server.herokuapp.com/movies';
 
   constructor(private http: HttpClient) { }
 
